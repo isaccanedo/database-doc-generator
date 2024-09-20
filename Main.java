@@ -1,18 +1,12 @@
 package cn.enilu.tool.database.doc.generator;
 
-import cn.enilu.tool.database.doc.generator.bean.Constants;
-import cn.enilu.tool.database.doc.generator.bean.DdgDataSource;
-import cn.enilu.tool.database.doc.generator.database.*;
+import com.teste.tool.database.doc.generator.bean.Constants;
+import com.teste.tool.database.doc.generator.bean.DdgDataSource;
+import com.teste.tool.database.doc.generator.database.*;
 import org.nutz.dao.impl.SimpleDataSource;
 
 import java.util.Scanner;
 
-/**
- * Main
- *
- * @author zt
- * @version 2018/10/6 0006
- */
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
